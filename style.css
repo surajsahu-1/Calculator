@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+section{
+    height: 100vh;
+    width: 100%;
+    /* background-repeat: no-repeat; */
+    /* background-size: cover; */
+    /* background-image: url(./bg.jpg); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+section>article{
+    height: 60vh;
+    /* width: 600px; */
+    /* background-color: aqua; */
+}
+table{
+    height: 100%;
+    width: 250px;
+    border-radius: 10px;
+    background: hsla(217, 100%, 50%, 1);
+
+    background: linear-gradient(90deg, hsla(217, 100%, 50%, 1) 0%, hsla(186, 100%, 69%, 1) 100%);
+    
+    background: -moz-linear-gradient(90deg, hsla(217, 100%, 50%, 1) 0%, hsla(186, 100%, 69%, 1) 100%);
+    
+    background: -webkit-linear-gradient(90deg, hsla(217, 100%, 50%, 1) 0%, hsla(186, 100%, 69%, 1) 100%);
+    
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#0061FF", endColorstr="#60EFFF", GradientType=1 );  
+}
+#input{
+    text-align: right;
+    color: rgb(64, 63, 63);
+    height: 100%;
+    width: 100%;
+    background: transparent;
+    border: none;
+    font-size: 50px;
+}
+.top{
+    height: 150px;
+}
+.btn{
+    height: 50px;
+    width: 55px;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    color: rgb(49, 100, 190);
+}
+.horizontal{
+    height:110px ;
+    background-color: rgb(58, 167, 226);
+    color: white;
+}
+.horizontal:hover{
+     background-color: rgb(101, 183, 227);
+}
+.vertical{
+    width:115px ;
+}
+.op{
+    background-color:rgb(49, 100, 190) ;
+    color:rgb(159, 191, 247) ;
+}
+.op:hover{
+    background-color:rgb(74, 117, 192) ;
+}
+.thtab{
+    background: hsla(208, 33%, 21%, 1);
+
+    background: linear-gradient(90deg, hsla(208, 33%, 21%, 1) 0%, hsla(211, 36%, 46%, 1) 100%);
+    
+    background: -moz-linear-gradient(90deg, hsla(208, 33%, 21%, 1) 0%, hsla(211, 36%, 46%, 1) 100%);
+    
+    background: -webkit-linear-gradient(90deg, hsla(208, 33%, 21%, 1) 0%, hsla(211, 36%, 46%, 1) 100%);
+    
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#243748", endColorstr="#4B749F", GradientType=1 );   
+}
+.thinp{
+    color: white;
+}
+.thop{
+    background-color: orangered;
+}
+.thop:hover{
+    background-color: chocolate;
+}
+.thhor{
+    background-color: chocolate;
+}
+.thhor:hover{
+    background-color: rgb(214, 122, 56);
+}
